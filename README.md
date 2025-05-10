@@ -29,15 +29,15 @@ Ce script est à ouvrir avec un éditeur de fichier et il s'agit de modifier à 
 
   -f nom_du_fichier
   
-  -s sampling_rate   *fichiers binaires JMF uniquement*
+  -s sampling_rate           (*fichiers binaires JMF uniquement*)
   
-  -c voie 1 ou 2 (si entrelacées)   *fichiers binaires JMF uniquement*
+  -c voie 1 ou 2 si entrelacées       (*fichiers binaires JMF uniquement*)
 
 **Exemples d'appel:**
 
 python decode_ethernet100Mbps_avec_synchro_V10_AVEC_ARGUMENT.py -f Tek0004.csv   # pour un fichier CSV
 
-python decode_ethernet100Mbps_avec_synchro_V10_AVEC_ARGUMENT.py -f CUT_RefCurve_2025-04-25_0_154619_1GSps_ping10ms.Wfm.bin -s 1e9 -c 2
+python decode_ethernet100Mbps_avec_synchro_V10_AVEC_ARGUMENT.py -f CUT_RefCurve_2025-04-25_0_154619_1GSps_ping10ms.Wfm.bin -s 1e9 -c 2   # pour un fichier binaire JMF
 
 
 
