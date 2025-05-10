@@ -9,6 +9,10 @@ script: decode_ethernet_10Mbps_Interface_Graphique.py
 
 Les fichiers CSV sont à télécharger séparément. Bien sélectionner le bon modèle d'oscilloscope en rapport avec le fichier CSV à décoder.
 
+Vidéo démonstration:
+
+https://drive.google.com/file/d/1IcIyn7spNMZc0p1wGvt3BzvhHJLoFkX5/view?usp=drive_link
+
 
 # Ethernet 100BASE-TX: 
 
