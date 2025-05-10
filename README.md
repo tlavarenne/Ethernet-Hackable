@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1IcIyn7spNMZc0p1wGvt3BzvhHJLoFkX5/view?usp=drive
 
 # Ethernet 100BASE-TX: 
 
-Deux scripts sont fournis, un dans lequel les fichiers à charger sont à indiquer manuellement dans le fichier (éditeur python nécéssaire), un autre permettant l'execution en passant en argument le nom de fichier et éventuellement les paramètres nécéssaires (modification effectuée par Jean-Michel Friedt):
+Deux scripts sont fournis, un dans lequel les fichiers à charger sont à indiquer manuellement dans le fichier (éditeur python nécéssaire), un autre permettant l'execution en passant en argument le nom de fichier et éventuellement les paramètres nécéssaires:
 
 - decode_ethernet100Mbps_avec_synchro_V10.py qui reprend l'intégralité du traitement décrit dans l'article Hackable en y rajoutant la resynchronisation en cas de perte du LFSR ainsi que l'analyse des trames avec SCAPY (https://scapy.net), module python à installer (sinon modifier la ligne 395 dans le script ANALYSE_SCAPY == False).
 
