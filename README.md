@@ -1,6 +1,6 @@
 # Ethernet-Hackable
 Fichiers Python et acquisitions (CSV et bin) liées à l'article "Ethernet à la loupe: de la couche physique au décodage des trames" du magazine Hackable n°61 juillet/août 2025, Editions Diamond.
-
+https://boutique.ed-diamond.com/parution/4-hackable
 
 
 ![image](https://github.com/user-attachments/assets/4efe3795-b026-4522-8fbb-41e02c730b9c)
