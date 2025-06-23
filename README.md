@@ -1,6 +1,12 @@
 # Ethernet-Hackable
 Fichiers Python et acquisitions (CSV et bin) liées à l'article "Ethernet à la loupe: de la couche physique au décodage des trames" du magazine Hackable n°61 juillet/août 2025, Editions Diamond.
 
+
+
+![image](https://github.com/user-attachments/assets/4efe3795-b026-4522-8fbb-41e02c730b9c)
+
+
+
 # Ethernet 10BASE-T:
 
 L'étude du protocole 10BASE-T décrite dans l'article a conduit à la création d'une interface graphique pyQT5 pour décoder les trames Ethernet.
