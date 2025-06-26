@@ -1,35 +1,3 @@
-"""
-Programme pédagogique pour le décodage Ethernet de signaux Manchester à partir de fichiers CSV
------------------------------------------------------------------------------------------------
-
-Ce programme est conçu pour illustrer le processus de décodage de signaux Ethernet codés en Manchester, 
-ainsi que la structure de la trame Ethernet, en utilisant des données recueillies par des oscilloscopes. 
-Les données sont chargées à partir de fichiers CSV produits par différents modèles d'oscilloscopes 
-(Tektronix MSO, Rigol, Tektronix TDS2012). Le programme supporte les formats de sortie spécifiques à chaque 
-modèle d'oscilloscope et propose une interface utilisateur pour visualiser et interpréter les trames Ethernet.
-La démarche utilisée pour arriver à traiter les trames Ethernet est expliquée dans l'article: "Ethernet à la loupe: 
-de la couche physique au décodage des trames" publié dans le magazine Hackable, n°61 juillet/août 2025, Editions Diamond.
-
-Fonctionnalités :
-- Traitement et filtrage du signal reçu : suppression d'un éventuel décalage vertical et alignement du début du signal.
-- Décodage des données avec le schéma de codage Manchester, prenant en charge un débit de 10 Mbps.
-- Extraction des éléments de la trame Ethernet (préambule, adresses de destination et source, type et données).
-- Affichage interactif de chaque section de la trame Ethernet avec des annotations graphiques (préambule, 
-  adresse de destination, adresse source, type, et données).
-  
-
-Contact:
-Thomas LAVARENNE
-thomas.lavarenne@ac-creteil.fr
-
-
-Licence :
-Ce programme est distribué sous la licence Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International 
-(CC BY-NC-ND 4.0). Vous êtes libre de partager ce programme dans un cadre non commercial et privé, 
-mais vous ne pouvez pas le modifier ni le redistribuer sans autorisation. Aucune utilisation commerciale ou diffusion publique 
-n'est autorisée. Pour plus d'informations : https://creativecommons.org/licenses/by-nc-nd/4.0/
-"""
-
 import sys
 import csv
 import numpy as np
