@@ -103,7 +103,7 @@ class TraitementSignal:
 
     def aligner_debut_signal(self):
         index = 0
-        while self.donnees[index] < 0.15:
+        while self.donnees[index] > -0.15:
             index += 1
         self.donnees = self.donnees[index:]
 
@@ -123,9 +123,9 @@ class DecodeurManchester:
         i = self.nbr_ech_bit // 4
         while i < len(self.donnees) - self.nbr_ech_bit // 2:
             if self.donnees[i] > 0 and self.donnees[i + self.nbr_ech_bit // 2] < 0:
-                self.decode += '1'
-            elif self.donnees[i] < 0 and self.donnees[i + self.nbr_ech_bit // 2] > 0:
                 self.decode += '0'
+            elif self.donnees[i] < 0 and self.donnees[i + self.nbr_ech_bit // 2] > 0:
+                self.decode += '1'
             i += self.nbr_ech_bit
         self.preambule_corr = False #PROBLEME: IL MANQUE '10' POUR CERTAINS PREAMBULES??
         if self.decode[:64] != '1010101010101010101010101010101010101010101010101010101010101011':
